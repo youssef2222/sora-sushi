@@ -1,0 +1,23 @@
+.maxcard {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+    width: 100%;
+    min-height: 180px;
+    padding: 20px;
+    box-sizing: border-box;
+   
+    border-radius: var(--border-radius);
+    align-items: center;
+    justify-items: center;
+}
+
+.grid_card {
+    background-color: blueviolet;
+    color: white;
+    padding: 15px;
+    border-radius: var(--border-radius);
+    text-align: center;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}

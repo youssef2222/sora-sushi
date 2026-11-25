@@ -1,0 +1,60 @@
+
+:root {
+  /* Colors */
+  --primary-color: #97a8be;
+  --secondary-color: #777979;
+  --text-color: #c2c2c2;
+  --background-color:  #385f1e;
+
+  /* Spacing */
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* Layout */
+  --container-width: 1200px;
+
+  /* Borders */
+  --border-radius: 8px;
+}
+
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  background-image: url("./assets/main-japon.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #080808;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  
+  color: var(--text-color);
+  line-height: 1.5;
+}
+
+/* --- Layout --- */
+/* Le footer reste collé à la fin de la page : on empile en colonne
+   header / contenu / footer et main occupe l'espace restant. */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 1 auto;
+}
+
+
+
+
+

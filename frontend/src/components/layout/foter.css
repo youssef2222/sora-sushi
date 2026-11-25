@@ -1,0 +1,19 @@
+.footer {
+    background: rgba(242, 242, 240, 0.90);
+    border-top: 1px solid #d6d6d6;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    text-align: center;
+    gap: 8px;
+
+    width: 100%;
+    min-height: 50px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    
+}

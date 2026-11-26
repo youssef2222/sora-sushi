@@ -1,5 +1,5 @@
 .footer {
-    background: rgba(242, 242, 240, 0.90);
+    background: white;
     border-top: 1px solid #d6d6d6;
     color: black;
 
@@ -16,4 +16,14 @@
     padding: 10px 20px;
     box-sizing: border-box;
     
+}
+
+.sous-footer{
+     display: flex;
+     gap: 12px;
+     font-size: small;
+}
+.sous-footer span{
+     color: #6B9B45;
+     font-size: 1.125rem;
 }

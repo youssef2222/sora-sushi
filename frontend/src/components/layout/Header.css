@@ -1,7 +1,8 @@
 
 .header_container {
     width: 100%;
-    background: rgba(242, 242, 240, 0.95);
+    background-color: #ffffff;
+    color: #222222;
     border-bottom: 1px solid #d6d6d6;
 }
 
@@ -20,8 +21,8 @@
 
 /* Logo */
 .logo img {
-    width: 85px;
-    height: 70px;
+    width: 100px;
+    height: 105px;
     object-fit: contain;
 }
 

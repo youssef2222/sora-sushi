@@ -8,6 +8,7 @@ import {
   Phone,
   ShoppingCart,
   LogIn,
+  Images,
 } from "lucide-react";
 
 function Header() {
@@ -40,6 +41,11 @@ function Header() {
           <button className="action_btn" aria-label="Mode sombre">
             <Moon size={20} />
           </button>
+
+          <button className="action_btn" aria-label="Images">
+            <Images size={20} />
+          </button>
+          
 
           <button className="action_btn" aria-label="Téléphone">
             <Phone size={20} />
